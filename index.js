@@ -9,7 +9,7 @@ app.use(cors());
 app.use(express.json());
 
 mongoose
-  .connect('mongodb://localhost:27017/mydb')
+  .connect('mongodb://34.47.110.107:27017/mydb')
   .then(() => {
     console.log('Connected to MongoDB');
   })
